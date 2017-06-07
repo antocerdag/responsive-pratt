@@ -5,7 +5,7 @@
 	<title>Responsive Pratt</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:200,300,400" rel="stylesheet">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<script src="https://use.fontawesome.com/be0dd1e218.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -130,20 +130,20 @@
 					<h4>Drop Us A Line</h4>
 					<form>
 						<div class="form-group">
-						<label for="exampleInputEmail1">
+						<label for="name">
 						Your Name</label>
-						<input type="text" class="form-control" placeholder="Your Name">
+						<input type="text" class="form-control" id="name" placeholder="Your Name">
 					</div>
 					<div class="form-group">
-						<label for="exampleInputEmail1">
+						<label for="email">
 						Email address</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<input type="email" class="form-control" id="exampleInputEmail1 email" aria-describedby="emailHelp" placeholder="Enter email">
 					</div>
 					<div class="form-group">
 						<label for="exampleTextarea">Your Text</label>
-						<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+						<textarea class="form-control" id="textarea" rows="3"></textarea>
 					</div>
-					<button type="button" class="btn btn-success">Submit</button>
+					<button type="button" id="boton" class="btn btn-success">Submit</button>
 				</div>
 			</div>
 			<div class="row">
@@ -154,4 +154,5 @@
 			</div>
 		</footer>
 	</body>
+	<script src="assets/js/main.js"></script>
 </html>
