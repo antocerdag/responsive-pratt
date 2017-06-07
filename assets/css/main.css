@@ -1,0 +1,118 @@
+.first-section h1{
+	padding-top: 2em;
+	color: #fff;
+	font-weight: 200;
+	font-size: 70px;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+
+}
+
+.first-section h1 p{
+	display: inline-block;
+	font-size: 70px;
+}
+.navbar-brand p{
+	    margin-left: 60px;
+}
+
+.photo{
+	width: 67%;
+}
+
+#showApp{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 40px;
+	margin-top: -4px;
+
+}
+
+#designedto{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: #737373;
+	margin-bottom: 40px;
+	margin-top: -4px;
+}
+
+.display-phone{
+	
+}
+
+.display-text{
+
+    width: 42%;
+    left: 20%;
+
+}
+
+.third-section h1{
+    padding-top: 2em;
+    color: #fff;
+    font-weight: 200;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+}
+
+.third-section img{
+	margin-left: 10%;
+    margin-top: 40px;
+}
+
+.seccion-izq{
+	width: 15%;
+    margin-left: 10%;
+	margin-top: 40px;
+}
+.seccion-izq h4{
+	font-size: 22px;
+	font-weight: 200;
+}
+.seccion-izq p{
+	font-size: 18px;
+    font-weight: 200;
+}
+
+.seccion-der{
+	width: 51%;
+    margin-left: 20%;
+	margin-top: 40px;
+}
+.seccion-der h4{
+	font-size: 22px;
+	font-weight: 200;
+}
+.seccion-abajo{
+    margin-top: 53px;
+    height: 52px;
+    margin-left: -6%;
+    width: 112%;
+    background-color: #222222;
+}
+.seccion-abajo p{
+    display: inline-block;
+    position: relative;
+    left: -4%;
+    top: 15px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.seccion-abajo a{
+    display: inline-block;
+    position: relative;
+    left: -3%;
+    top: 15px;
+    font-size: 17px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #3bc492;
+}
+
+.seccion-abajo a:hover{
+	color: #c0392b;
+}
